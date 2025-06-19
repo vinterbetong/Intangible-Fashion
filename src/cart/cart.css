@@ -1,0 +1,33 @@
+.cart h1 {
+    font-size:24pt;
+    color:#4fa4de;
+}
+
+.cartitems {
+    border-bottom:1px solid #4fa4de;
+    width:500px;
+    margin:20px;
+    height:155px;
+}
+
+.cartitems img {
+    float:left;
+    height:150px;
+    margin:0 10px;
+}
+
+.cart button, .cart p {
+    display:inline-block;
+    margin:5px;
+}
+
+.cart button {
+    min-width:20px;
+}
+
+@media (max-width:768px) {
+    .cart {
+        margin-top:60px;
+    }
+
+    }

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Fugaz+One&display=swap');
+
+.banner {
+    padding:20px;
+    margin:20px auto;
+    height:500px;
+    width:90%;
+    background:url('force-majeure-SmIlY2uAHo8-unsplash.jpg') no-repeat;
+    background-size: cover;
+}
+
+.box {
+    color:white;
+    margin:5vh;
+    padding:3vh;
+    background:rgba(0,0,0,60%);
+    text-align:center;
+}
+
+h1 {
+    font-family:'Fugaz One';
+    font-size:34pt;
+}

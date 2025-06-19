@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+.container {
+    margin:10px;
+    width:240px;
+    text-align:center;
+}
+
+.products img {
+    border-radius:10px;
+    width:200px;
+    height:260px;
+    object-fit:cover;
+    transition:0.3s;
+}
+
+.products img:hover {
+    filter:brightness(115%);
+}
+
+.fullview {
+    padding:20px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.fullview img {
+    width:500px;
+}
+
+h2, h4 {
+    font-family:'Federo', 'Courier New', Courier, monospace;
+}
+
+h4, h5 {
+    margin:4px;
+}
+
+h5 {
+    color:grey;
+}
+
+button {
+    text-transform:uppercase;
+    color:#4fa4de;
+    border: 1px solid #4fa4de;
+    border-radius:3px;
+    margin:4px;
+}

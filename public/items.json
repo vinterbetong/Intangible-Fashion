@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "style": "Women",
+        "article": "Athletic Set",
+        "color": "Yellow",
+        "description": "High quality 100% cotton set of a stylish waist-cropped hoodie and matching sweatpants. The perfect, bright vibrant set for the fashionable athlete.",
+        "price": 150,
+        "photo":"dom-hill-nimElTcTNyY-unsplash"
+    },
+    {
+        "id": 2,
+        "style": "Men",
+        "article": "Graphic Tee",
+        "color": "Black",
+        "description": "A comfortable short-sleeved tee with a skeleton graphic on the front.",
+        "price": 30,
+        "photo":"ian-dooley-wzRKn-AjKf4-unsplash"
+    },
+    {
+        "id": 3,
+        "style": "Women",
+        "article": "Knitted Shawl",
+        "color": "White",
+        "description": "This classic knitted shawl is warm yet and breathable, sure to keep you at just the right temperature for the summer evenings.",
+        "price": 40,
+        "photo":"milada-vigerova-p8Drpg_duLw-unsplash"
+    },
+    {
+        "id": 4,
+        "style": "Women",
+        "article": "Summer Dress",
+        "color": "Yellow",
+        "description": "A gorgeous flowing spaghetti-strap dress with soft, gentle pleats and a gathered front.",
+        "price": 80,
+        "photo":"engin-akyurt-V3ooWSqPPvc-unsplash"
+    },
+    {
+        "id": 5,
+        "style": "Women",
+        "article": "Fitted Jacket",
+        "color": "Orange",
+        "description": "A light summer jacket that provides protection against wind and summer showers without getting too warm.",
+        "price": 70,
+        "photo":"tobias-tullius-Fg15LdqpWrs-unsplash"
+    }
+]
