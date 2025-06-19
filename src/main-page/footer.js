@@ -5,7 +5,7 @@ class Footer extends Component {
 render() {
         return (
             <div className="footer">
-                <img src={logo} className='logo'/>
+                <img src={logo} className='logo' alt='Footer'/>
                 <table>
                     <tr>
                     <th>Business Information</th>

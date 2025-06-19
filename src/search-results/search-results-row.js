@@ -27,9 +27,7 @@ const SearchResultsRow = ({item}) => {
         <div className="items">
             <div>
                 <div>
-                <a href={`/item/${item.id}`}>
-                <img src={`/images/${item.photo}.jpg`} alt="Product" />
-                </a>
+                <img src={`/images/${item.photo}.jpg`} alt="Product" onClick={() => {setActive}}/>
                 </div>
             <h4>{item.article}</h4>
             <h5>${item.price}</h5>
