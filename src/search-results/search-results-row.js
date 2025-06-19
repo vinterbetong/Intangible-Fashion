@@ -6,8 +6,6 @@ import { toast } from 'react-toastify';
 
 const SearchResultsRow = ({item}) => {
     const { addToCart } = useContext(CartContext);
-    const navigate = useNavigate();
-    const setActive = () => {navigate(`/item/${item.id}`);};
 
     const notifyAddedToCart = (item) => toast.success(`${item.article} added to cart!`, {
     position: "top-center",
@@ -27,7 +25,7 @@ const SearchResultsRow = ({item}) => {
         <div className="items">
             <div>
                 <div>
-                <img src={`/images/${item.photo}.jpg`} alt="Product" onClick={() => {setActive}}/>
+                <img src={`/images/${item.photo}.jpg`} alt="Product"/>
                 </div>
             <h4>{item.article}</h4>
             <h5>${item.price}</h5>
