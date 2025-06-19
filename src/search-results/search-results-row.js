@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './search.css';
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import { CartContext } from '../context/cart';
 import { toast } from 'react-toastify';
 

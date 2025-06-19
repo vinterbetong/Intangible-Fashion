@@ -1,6 +1,4 @@
 import "./item.css";
-import { useState } from "react";
-import { CartContext } from '../context/cart';
 
 const Item = ({item}) => {
 

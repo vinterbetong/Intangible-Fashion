@@ -1,4 +1,4 @@
-import {useContext, useEffect, useState, useMemo} from "react";
+import {useContext, useEffect, useState} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './main-page.css';
 import Header from "./header.js";
@@ -74,20 +74,6 @@ function ItemList() {
     style: {
       backgroundColor: '#fff',
       color: '#000',
-    }
-    });
-
-  const notifyRemovedFromCart = (item) => toast.error(`${item.article} removed from cart!`, {
-    position: "top-center",
-    autoClose: 2000,
-    hideProgressBar: true,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    theme: 'colored',
-    style: {
-      backgroundColor: '#000',
-      color: '#fff',
     }
     });
 
